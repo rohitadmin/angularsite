@@ -9,6 +9,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListsComponent implements OnInit {
   recipes: Recipe[] = [
+   new Recipe('Chicken Birayani', 'Best Chicken to in the Birayani industry, just smell and eat it.', 'https://banner2.kisspng.com/20180330/vkq/kisspng-fizzy-drinks-hyderabadi-biryani-chicken-65-biryani-5abedc78a680a8.782596021522457720682.jpg'),
    new Recipe('Chicken Birayani', 'Best Chicken to in the Birayani industry, just smell and eat it.', 'https://banner2.kisspng.com/20180330/vkq/kisspng-fizzy-drinks-hyderabadi-biryani-chicken-65-biryani-5abedc78a680a8.782596021522457720682.jpg')
   ];
   
